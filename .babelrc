@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["env" , {
+      "modules": false,
+      "targets": {
+        "browsers": ["last 2 versions", "ie >= 7"],
+        "node": "6.10"
+      }
+    }],
+    "react",
+    "es2015"
+  ],
+  "plugins": [
+        "transform-runtime"
+      ]
+}

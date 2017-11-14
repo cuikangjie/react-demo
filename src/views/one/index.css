@@ -1,0 +1,9 @@
+.one{
+  margin-top: 30px;
+  font-size: 12px;
+  .two{
+    color: red;
+    font-size: 12px;
+    display: flex;
+  }
+}
